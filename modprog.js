@@ -6,7 +6,7 @@
 
 function w(s) {document.writeln(s);}
 function id(s){return document.getElementById(s);}
-function imgstr(s) {return "<img src=\"https://www.dropbox.com/sh/ejx4u26zew71b8g/AACwj9RfSdY1zFqxZbOviDioa?Ist=/svc_"+s+".png\" height=20 align=absmiddle>&nbsp;";}
+function imgstr(s) {return "<img src=\"https:/https://github.com/vilko544/icons/svc_"+s+".png\" height=20 align=absmiddle>&nbsp;";}
 // parse time
 function parse_time(prefix) {
 	var h=parseInt(id(prefix+"h").value,10);

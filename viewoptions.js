@@ -6,7 +6,7 @@
 
 var str_tooltips=["Example: GMT-4:00, GMT+5:30 (effective after reboot).", "HTTP port (effective after reboot).", "HTTP port (effective after reboot).", "Number of extension boards", "Sequential running or concurrent running", "Station delay time (in seconds), between 0 and 240.", "Select master station", "Master on delay (in seconds), between +0 and +60.", "Master off delay (in seconds), between -60 and +60.", "Use rain sensor", "Rain sensor type", "Water level, between 0% and 250%.", "Ignore web password"];
 function w(s) {document.writeln(s);}
-function imgstr(s) {return "<img src=\"https://www.dropbox.com/sh/ejx4u26zew71b8g/AACwj9RfSdY1zFqxZbOviDioa?Ist=/svc_"+s+".png\" height=20 align=absmiddle>&nbsp;";}
+function imgstr(s) {return "<img src=\"https://github.com/vilko544/icons/svc_"+s+".png\" height=20 align=absmiddle>&nbsp;";}
 function submit_form(f) {
   // process time zone value
   var th=parseInt(f.elements["th"].value,10);

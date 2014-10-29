@@ -6,7 +6,7 @@
 
 var str_days=["Mon","Tue","Wed","Thur","Fri","Sat","Sun"];
 function w(s) {document.writeln(s);}
-function imgstr(s) {return "<img src=\"https://www.dropbox.com/sh/ejx4u26zew71b8g/AACwj9RfSdY1zFqxZbOviDioa?Ist=/svc_"+s+".png\" height=20 align=absmiddle>&nbsp;";}
+function imgstr(s) {return "<img src=\"https://github.com/vilko544/icons/svc_"+s+".png\" height=20 align=absmiddle>&nbsp;";}
 function del(form,idx) {
   var p="";
   if(!ipas) p=prompt("Please enter your password:","");

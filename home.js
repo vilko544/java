@@ -9,7 +9,7 @@ function link(s) {window.location=s;}
 function linkn(s){window.open(s, '_blank');}
 // input rain delay value
 function setrd(form,idx) {var h=prompt("Enter hours to delay","0");if(h!=null){form.elements[idx].value=h;form.submit()};}
-function imgstr(s) {return "<img src=\"https://www.dropbox.com/sh/ejx4u26zew71b8g/AACwj9RfSdY1zFqxZbOviDioa?Ist=/svc_"+s+".png\" height=20 align=absmiddle>&nbsp;";}
+function imgstr(s) {return "<img src=\"https://github.com/vilko544/icons/svc_"+s+".png\" height=20 align=absmiddle>&nbsp;";}
 function datestr(t) {var _t=tz-48; return (new Date(t)).toUTCString()+((_t>=0)?"+":"-")+(Math.abs(_t)/4>>0)+":"+((Math.abs(_t)%4)*15/10>>0)+((Math.abs(_t)%4)*15%10);}
 // print menu links
 w("<button style=\"height:44\" onclick=link(\"/\")>"+imgstr("reset")+"Refresh</button>");
@@ -21,7 +21,7 @@ w("<button style=\"height:44\" onclick=linkn(\"http://www.wunderground.com/cgi-b
 if(ver>=100) w("<b>Firmware version</b>: "+(ver/100>>0)+"."+((ver/10>>0)%10)+"."+(ver%10)+"<br>");
 else w("<b>Firmware version</b>: "+(ver/10>>0)+"."+(ver%10)+"<br>");
 w("<b>Device time</b>: "+datestr(devt*1000)+"<hr>");
-w("<script type=\"text/javascript\" src=\"https://www.dropbox.com/sh/uctol8z4duprjl7/AADkxtOIS0FbskWxeh34FuRfa?dl=0/"+((mm)?"manualmode.js":"progmode.js")+"\"></script>");
+w("<script type=\"text/javascript\" src=\"https://https://github.com/vilko544/icons/"+((mm)?"manualmode.js":"progmode.js")+"\"></script>");
 // print status and other information
 w("<br><b>Operation</b>: "+(en?("on").fontcolor("green"):("OFF").fontcolor("red")));
 w("<br><b>Raindelay</b>: "+(rd?("ON").fontcolor("red")+" (till "+datestr(rdst*1000)+")":("off").fontcolor("black")));
