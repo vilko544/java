@@ -5,7 +5,7 @@
 // Sep 2012, Rayshobby.net
 
 function w(s) {document.writeln(s);}
-function imgstr(s) {return "<img src=\"https://github.com/vilko544/icons/svc_"+s+".png\" height=20 align=absmiddle>&nbsp;";}
+function imgstr(s) {return "<img src=\"https://rawgit.com/vilko544/icons/master/svc_"+s+".png\" height=20 align=absmiddle>&nbsp;";}
 function rst(f) {
   var sid,sn;
   for(sid=0;sid<nboards*8;sid++) {
