@@ -6,7 +6,7 @@
 
 // colors to draw different programs
 var prog_color=["rgba(0,0,200,0.5)","rgba(0,200,0,0.5)","rgba(200,0,0,0.5)","rgba(0,200,200,0.5)"];
-var days_str=["Sun","Mon","Tue","Wed","Thur","Fri","Sat"];
+var days_str=["Ned","Pon","Uto","Sri","Cet","Pet","Sub"];
 var xstart=80,ystart=80,stwidth=40,stheight=180;
 var winwidth=stwidth*nboards*8+xstart, winheight=26*stheight+ystart;
 var sid,sn,t;
