@@ -4,7 +4,7 @@
 // Creative Commons Attribution ShareAlike 3.0 License
 // Rayshobby.net, Sep 2012
 
-var str_days=["Pon","Uto","Sri","Cet","Pet","Sub","Ned"];
+var str_days=["Mon","Tue","Wed","Thur","Fri","Sat","Sun"];
 function w(s) {document.writeln(s);}
 function imgstr(s) {return "<img src=\"https://rawgit.com/vilko544/icons/master/svc_"+s+".png\" height=20 align=absmiddle>&nbsp;";}
 function del(form,idx) {
