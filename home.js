@@ -10,7 +10,7 @@ function linkn(s){window.open(s, '_blank');}
 // input rain delay value
 function setrd(form,idx) {var h=prompt("Enter hours to delay","0");if(h!=null){form.elements[idx].value=h;form.submit()};}
 function imgstr(s) {return "<img src=\"https://rawgit.com/vilko544/icons/master/svc_"+s+".png\" height=20 align=absmiddle>&nbsp;";}
-function datestr(t) {var _t=tz-48; return (new Date(t)).toUTCString()+((_t>=0)?"+":"-")+(Math.abs(_t)/4>>0)+":"+((Math.abs(_t)%4)*15/10>>0)+((Math.abs(_t)%4)*15%10);setInterval("datestr(t)",1000)}
+function datestr(t) {var _t=tz-48; return (new Date(t)).toUTCString()+((_t>=0)?"+":"-")+(Math.abs(_t)/4>>0)+":"+((Math.abs(_t)%4)*15/10>>0)+((Math.abs(_t)%4)*15%10);}
 // print menu links
 w("<button style=\"height:44\" onclick=link(\"/\")>"+imgstr("reset")+"Refresh</button>");
 w("<button style=\"height:44\" onclick=link(\"/vo\")>"+imgstr("options")+"Options</button>");
